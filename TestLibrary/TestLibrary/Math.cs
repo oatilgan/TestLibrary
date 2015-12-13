@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace TestLibrary
 {
@@ -6,12 +7,7 @@ namespace TestLibrary
     {
         public double Sum(List<double> numberList)
         {
-            double number = 0;
-            foreach (var item in numberList)
-            {
-                number += item;
-            }
-            return number;
+            return numberList.Sum();
         }
     }
 }
