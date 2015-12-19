@@ -19,6 +19,7 @@ $RECYCLE.BIN/
 
 bin/
 obj/
+TestLibrary/.vs/
 
 # =========================
 # Operating System Files
