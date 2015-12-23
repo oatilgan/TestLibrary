@@ -9,5 +9,14 @@ namespace TestLibrary
         {
             return numberList.Sum();
         }
+
+        public double Carp(List<double> numberList)
+        {
+            double count = 1;
+            foreach (var item in numberList)
+                count *= item;
+
+            return count;
+        }
     }
 }
