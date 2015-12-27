@@ -15,7 +15,6 @@ namespace TestLibrary
             double count = 1;
             foreach (var item in numberList)
                 count *= item;
-
             return count;
         }
     }
