@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>TestLibrary</id>
+    <version>1.0.0.34</version>
+    <authors>Development Team</authors>
+    <owners>Company</owners>
+    <licenseUrl>http://www.mrtkyz.com</licenseUrl>
+    <projectUrl>http://www.mrtkyz.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>deployment package, built on 10/12/2015</description>
+    <releaseNotes />
+  </metadata>
+</package>
