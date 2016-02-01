@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>TestLibrary2</id>
-    <version>1.0.2</version>
-    <title>TestLibrary2</title>
+    <id>mrtkyz.library</id>
+    <version>0.0.0</version>
+    <title>mrtkyz.library</title>
     <authors>makyuz</authors>
     <owners>Murat KYZ, mrtkyz company</owners>
     <licenseUrl>http://www.mrtkyz.com</licenseUrl>
