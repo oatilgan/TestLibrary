@@ -25,5 +25,6 @@ namespace TestLibrary
 
             return numberList.Aggregate<double, double>(1, (a, b) => a * b);
         }
+
     }
 }
