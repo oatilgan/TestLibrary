@@ -15,12 +15,12 @@ namespace TestLibrary
             //double result = 1;
             //foreach (var item in numberList)
             //    result *= item;
-            
+
             //return result;
 
-            return numberList.Aggregate<double, double>(1, (a, b) => a*b);
-
             //return numberList.Aggregate<double, double>(1, (current, item) => current * item);
+
+            return numberList.Aggregate<double, double>(1, (a, b) => a*b);
         }
     }
 }
