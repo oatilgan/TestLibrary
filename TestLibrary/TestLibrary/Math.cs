@@ -6,7 +6,7 @@ namespace TestLibrary
     public class Math
     {
         /// <summary>
-        ///     master
+        ///     feature test1
         /// </summary>
         /// <param name="numberList"></param>
         /// <returns></returns>
