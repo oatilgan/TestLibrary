@@ -5,18 +5,20 @@ namespace TestLibrary
 {
     public class Math
     {
-        public double Sum(List<double> numberList)
+        public double ToplaByList(List<double> numberList)
         {
             return numberList.Sum();
         }
 
         public double Carp(List<double> numberList)
         {
-            double result = 1;
-            foreach (var item in numberList)
-                result *= item;
-            
-            return result;
+            //double result = 1;
+            //foreach (var item in numberList)
+            //    result *= item;
+            //return result;
+            //return numberList.Aggregate<double, double>(1, (current, item) => current * item);
+
+            return numberList.Aggregate<double, double>(1, (a, b) => a * b);
         }
     }
 }
