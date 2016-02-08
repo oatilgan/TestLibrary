@@ -12,6 +12,7 @@ namespace TestLibrary
 
         public double Carp(List<double> numberList)
         {
+
             //double result = 1;
             //foreach (var item in numberList)
             //    result *= item;
