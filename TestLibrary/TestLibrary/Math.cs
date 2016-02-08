@@ -19,6 +19,7 @@ namespace TestLibrary
             //return numberList.Aggregate<double, double>(1, (current, item) => current * item);
 
             return numberList.Aggregate<double, double>(1, (a, b) => a * b);
+
         }
     }
 }
