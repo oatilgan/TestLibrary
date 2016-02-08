@@ -5,6 +5,7 @@ namespace TestLibrary
 {
     public class Math
     {
+
         public double ToplaByList(List<double> numberList)
         {
             return numberList.Sum();
