@@ -5,6 +5,11 @@ namespace TestLibrary
 {
     public class Math
     {
+        /// <summary>
+        /// feature test 3
+        /// </summary>
+        /// <param name="numberList"></param>
+        /// <returns></returns>
         public double ToplaByList(List<double> numberList)
         {
             return numberList.Sum();
