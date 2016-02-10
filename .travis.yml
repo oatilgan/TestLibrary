@@ -1,1 +1,2 @@
-
+language: csharp
+solution: TestLibrary/TestLibrary.sln
