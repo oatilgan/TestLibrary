@@ -12,7 +12,7 @@ namespace TestLibrary
         /// <returns></returns>
         public double ToplaByList(List<double> numberList)
         {
-            return anumberList.Sum();
+            return numberList.Sum();
         }
 
         public double Carp(List<double> numberList)
